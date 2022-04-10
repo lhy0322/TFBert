@@ -32,7 +32,9 @@ Use "pretrain-data.py" file to generate k-mer sequences files from 690 ChIP-seq 
 
 #### 3.2 Train
 The "run_individual.sh" corresponds to individual learning.
+
 The "run_global.sh" corresponds to global learning.
+
 The "run_transfer.sh" corresponds to transfer learning.
 
 #### 3.3 Test
