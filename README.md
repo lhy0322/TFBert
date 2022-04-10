@@ -1,6 +1,8 @@
 # TFBert
 We leverage a task-specific pre-training strategy on BERT using large-scale multi-source DNA-protein binding data and present TFBert. TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words. It can effectively extract upstream and downstream nucleotide context information by pre-training 690 unlabeled ChIP-seq datasets. Experiments show that the pre-trained model can achieve promising performance on each single dataset in the 690 ChIP-seq datasets after simple fine-tuning, especially on small datasets. The average AUC is 94.9%, outperforming existing popular methods. 
 
+![Image browser window](Figure1.png)
+
 ## 1. Environment setup
 
 We recommend you to build a python virtual environment with [Anaconda](https://docs.anaconda.com/anaconda/install/linux/). We applied training on a single NVIDIA Tesla V100 with 32 GB graphic memory. If you use GPU with other specifications and memory sizes, consider adjusting your batch size accordingly.
