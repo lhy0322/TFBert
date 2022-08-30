@@ -1,5 +1,7 @@
 # TFBert
-We leverage a task-specific pre-training strategy on BERT using large-scale multi-source DNA-protein binding data and present TFBert. TFBert treats DNA sequences as natural sentences and k-mer nucleotides as words. It can effectively extract upstream and downstream nucleotide context information by pre-training 690 unlabeled ChIP-seq datasets. Experiments show that the pre-trained model can achieve promising performance on each single dataset in the 690 ChIP-seq datasets after simple fine-tuning, especially on small datasets. The average AUC is 94.9%, outperforming existing popular methods. 
+
+
+![Image browser window](Figure1.png)
 
 ## 1. Environment setup
 
@@ -25,6 +27,13 @@ cd examples
 python3 -m pip install -r requirements.txt
 ```
 ## 2. Download pre-trained model and datasets
+#### 2.1 Pre-trained model
+"examples/pre_model/checkpoint-20000.rar" is the pre-trained model with MLM training on the 690 ChIP-seq datasets.
+
+"examples/pre_model/global-model.rar" is the global model with fine-tuning on the global-TR datasets.
+
+#### 2.2 datasets
+We retrieved the 690 [ChIP-seq datasets](http://cnn.csail.mit.edu/) collated by zeng et al.
 
 ## 3. Model pipeline
 #### 3.1 Data processing
