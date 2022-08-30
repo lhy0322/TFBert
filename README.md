@@ -1,7 +1,7 @@
 # TFBert
 
 
-![Image browser window](Figure1.png)
+![Image browser window](Figure.png)
 
 ## 1. Environment setup
 
