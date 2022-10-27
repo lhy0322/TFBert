@@ -3,6 +3,11 @@
 
 ![Image browser window](Figure.png)
 
+## Citation
+If you have used TFBert in your research, please kindly cite the following publication:
+
+Luo, H., Shan, W., Chen, C., Ding, P., & Luo, L. (2022). Improving language model of human genome for DNA–protein binding prediction based on task-specific pre-training. Interdisciplinary Sciences: Computational Life Sciences, 1-12.  DOI: 10.1007/s12539-022-00537-9   https://link.springer.com/article/10.1007/s12539-022-00537-9
+
 ## 1. Environment setup
 
 We recommend you to build a python virtual environment with [Anaconda](https://docs.anaconda.com/anaconda/install/linux/). We applied training on a single NVIDIA Tesla V100 with 32 GB graphic memory. If you use GPU with other specifications and memory sizes, consider adjusting your batch size accordingly.
