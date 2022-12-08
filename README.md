@@ -73,3 +73,5 @@ python TFBert.py \
     --predict_dir $PREDICTION_PATH \
     --n_process 12
 ```
+## Reference
+1. Ji Y, Zhou Z, Liu H, et al. DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome[J]. Bioinformatics, 2021, 37(15): 2112-2120.
