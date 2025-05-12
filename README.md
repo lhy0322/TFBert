@@ -33,9 +33,9 @@ python3 -m pip install -r requirements.txt
 ```
 ## 2. Download pre-trained model and datasets
 #### 2.1 Pre-trained model
-"examples/pre_model/checkpoint-20000.rar" is the pre-trained model with MLM training on the 690 ChIP-seq datasets.
+"examples/pre_model/checkpoint-20000.rar" is the pre-trained model with MLM training on the 690 ChIP-seq datasets.https://drive.google.com/file/d/1f5hk-ds_fsjHKWtafdl7brx63DFUrfG8/view
 
-"examples/pre_model/global-model.rar" is the global model with fine-tuning on the global-TR datasets.
+"examples/pre_model/global-model.rar" is the global model with fine-tuning on the global-TR datasets.https://drive.google.com/file/d/1wIQp0NjEDU1uiEVt4g6g2_i3M7uUeP5A/view
 
 #### 2.2 datasets
 We retrieved the 690 [ChIP-seq datasets](http://cnn.csail.mit.edu/) collated by zeng et al.
